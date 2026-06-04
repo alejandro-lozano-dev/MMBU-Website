@@ -1,0 +1,269 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.publication-title {
+  font-family: 'Google Sans', sans-serif;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.publication-title .mmbu-accent {
+  color: #A44BA7;
+}
+
+.publication-subtitle {
+  font-family: 'Google Sans', sans-serif;
+  font-weight: 400;
+  color: #555;
+}
+
+.publication-authors {
+  line-height: 1.8;
+}
+
+.publication-authors a {
+  color: #A44BA7;
+}
+
+.publication-authors a:hover {
+  text-decoration: underline;
+}
+
+.affiliation-block {
+  display: inline-block;
+  margin: 0 0.4rem;
+  color: #666;
+}
+
+.publication-links .button.is-mmbu {
+  background-color: #A44BA7;
+  color: white;
+}
+
+.publication-links .button.is-mmbu:hover {
+  background-color: #8a3d8d;
+  color: white;
+}
+
+.publication-links .button {
+  margin: 0.25rem;
+}
+
+/* TL;DR-style highlight box (purple for MMBU) */
+.tldr-section {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.tldr-box {
+  background: linear-gradient(135deg, #f3e0f8 0%, #e4c4ed 100%);
+  border-left: 5px solid #A44BA7;
+  border-radius: 8px;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.tldr-box .title {
+  color: #7a3580;
+  margin-bottom: 0.75rem;
+}
+
+.tldr-box p {
+  margin-bottom: 0;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.tldr-box ul {
+  margin-top: 0.75rem;
+  margin-left: 1.25rem;
+}
+
+.tldr-box li {
+  margin-bottom: 0.4rem;
+}
+
+.notice-box {
+  margin-top: 1.25rem;
+  background: white;
+  border: 2px solid #A44BA7;
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(164, 75, 167, 0.1);
+}
+
+.notice-box .title {
+  color: #A44BA7;
+  margin-bottom: 0.5rem;
+}
+
+.notice-box p {
+  margin-bottom: 0;
+  line-height: 1.65;
+  color: #444;
+}
+
+.results-findings {
+  margin-bottom: 2.5rem;
+}
+
+.result-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  height: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  border-top: 3px solid #e4c4ed;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.result-card:hover {
+  box-shadow: 0 4px 14px rgba(164, 75, 167, 0.12);
+  border-top-color: #A44BA7;
+}
+
+.result-card--lead {
+  border-top: none;
+  border-left: 5px solid #A44BA7;
+  background: linear-gradient(135deg, #ffffff 0%, #faf5fc 100%);
+}
+
+.result-card .title {
+  margin-bottom: 0.6rem;
+  line-height: 1.35;
+}
+
+.result-card .title i {
+  color: #A44BA7;
+  margin-right: 0.45rem;
+}
+
+.result-card p {
+  color: #444;
+  line-height: 1.65;
+  margin-bottom: 0;
+}
+
+.conclusion-box {
+  margin-top: 0.5rem;
+}
+
+.conclusion-box p {
+  margin-bottom: 0;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.result-figure img {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.result-figure {
+  margin: 1.5rem 0;
+}
+
+.result-figure figcaption {
+  color: #555;
+  margin-top: 0.75rem;
+  text-align: left;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.results-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.method-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1.25rem;
+  height: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.method-card .title {
+  margin-bottom: 0.5rem;
+}
+
+.method-card .title i {
+  color: #A44BA7;
+  margin-right: 0.4rem;
+}
+
+.finding-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  height: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.finding-card .heading {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #888;
+  font-size: 0.85rem;
+}
+
+.finding-card .title {
+  color: #A44BA7;
+  margin: 0.25rem 0;
+}
+
+.bibtex-box {
+  position: relative;
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 1.25rem;
+}
+
+.bibtex-box pre {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  overflow-x: auto;
+  font-size: 0.85rem;
+}
+
+.copy-btn {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+}
+
+.footer {
+  padding: 2rem 1.5rem;
+  background: #fafafa;
+}
+
+.footer a {
+  color: #A44BA7;
+}
+
+@media screen and (max-width: 768px) {
+  .publication-title {
+    font-size: 1.5rem !important;
+  }
+
+  .publication-subtitle {
+    font-size: 1.1rem !important;
+  }
+
+  .tldr-box {
+    padding: 1rem 1.25rem;
+  }
+
+  .notice-box {
+    padding: 1rem 1.25rem;
+  }
+}

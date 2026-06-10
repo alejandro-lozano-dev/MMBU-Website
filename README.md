@@ -11,7 +11,7 @@ Academic project page for **MMBU: A Massive Multi-modal Biomedical Understanding
 
 ## Assets
 
-- **Paper PDF:** `view.pdf`
+- **Paper:** [arXiv:2606.06696](https://arxiv.org/abs/2606.06696)
 - **Figures:** PNGs in `images/` (converted from the ECCV paper figures)
 
 ## Local preview
